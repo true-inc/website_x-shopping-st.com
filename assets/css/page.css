@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*==============================
+home
+==============================*/
+
+.home_sec {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+  .home_sec {
+    margin-bottom: 30px;
+  }
+}
+
+.home_kv {
+  margin-bottom: 98px;
+}
+
+@media (max-width: 767px) {
+  .home_kv {
+    margin-bottom: 30px;
+  }
+}
+
+.home_kv .kv_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 54px;
+}
+
+@media (max-width: 767px) {
+  .home_kv .kv_top {
+    flex-direction: column-reverse;
+    margin-bottom: 40px;
+  }
+}
+

@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/*==============================
+base
+==============================*/
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #444;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+  background: url("../img/common/body_bg_pc.png") no-repeat center 0;
+  background-size: contain;
+}
+
+@media (max-width: 767px) {
+	body {
+		background-image: url("../img/common/body_bg_sp.png");
+	}
+}
+
+a {
+  text-decoration: underline;
+  transition: all 0.3s;
+  opacity: 1;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+
+/*==============================
+common
+==============================*/
+
+.menu-open {
+  overflow: hidden;
+}
+
+.pc_none {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .pc_none {
+    display: block;
+  }
+}
+
+.sp_none {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .sp_none {
+    display: none;
+  }
+}
+
+.font_en {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1120px;
+}
+
+@media (max-width: 1120px) {
+  .container {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    margin: 0 20px;
+  }
+}
+
+.sec p {
+  font-size: 1.6em;
+}
+

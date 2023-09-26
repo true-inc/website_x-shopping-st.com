@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+/* header
+====================*/
+
+.header {
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+@media (max-width: 767px) {
+  .header {
+    margin-bottom: 11px;
+  }
+}
+
+.header_container {
+  position: relative;
+  margin: 0 auto;
+  padding: 16px 0;
+  max-width: 1200px;
+}
+
+
+
+/* footer
+====================*/
+
+.footer {
+  margin-top: 114px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    margin-top: 72px;
+  }
+}
+
+
+
+/* home component
+====================*/
+
+.home_sec .sec_ttl {
+  margin-bottom: 47px;
+  font-size: 3.2rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3.2px;
+}
+
+@media (max-width: 767px) {
+  .home_sec .sec_ttl {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+  }
+}
+
+.home_sec .sec_ttl_sub {
+  display: block;
+  color: #999;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.home_kv .kv_ttl {
+  margin: 20px 0 33px;
+  font-size: 4.8rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+@media (max-width: 1120px) {
+  .home_kv .kv_ttl {
+    margin: 13px 0 13px;
+    font-size: 4vw;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .home_kv .kv_ttl {
+    font-size: 3rem;
+    line-height: 1.5;
+		white-space: normal;
+  }
+}
+
+.home_kv .kv_txt {
+  font-size: 2rem;
+}
+
+@media (max-width: 767px) {
+  .home_kv .kv_txt {
+    font-size: 1.5rem;
+  }
+}
+
+.home_kv .kv_img {
+  max-width: 550px;
+  width: 61%;
+}
+
+@media (max-width: 1120px) {
+  .home_kv .kv_img {
+		max-width: initial;
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .home_kv .kv_img {
+    width: 100%;
+  }
+}
+
+.home_kv .kv_btn_box {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .home_kv .kv_btn_box {
+    flex-direction: column;
+  }
+}
+
+.home_kv .kv_btn a {
+  display: block;
+  margin: 0 20px;
+  width: 240px;
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 48px;
+  background: #111;
+  border: 1px solid #111;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .home_kv .kv_btn a {
+    margin: 0 auto 20px;
+    font-size: 1.6rem;
+  }
+}
+
+.home_kv .kv_btn_demo a {
+  color: #fff;
+}
+
+.home_kv .kv_btn_free a {
+  color: #111;
+  background: none;
+}
+
+.home_case_list {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .home_case_list {
+    flex-direction: column;
+  }
+}
+
+.home_case_list li {
+  margin: 0 40px;
+  width: 35.7%;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+@media (max-width: 767px) {
+  .home_case_list li {
+    margin: 0 auto 31px;
+    width: 94%;
+  }
+}
+
+.home_case_list a {
+  display: block;
+  width: 100%;
+}
+
+.home_case_list .case_img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.home_service_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 767px) {
+  .home_service_box {
+    margin-bottom: 34px;
+  }
+}
+
+.home_service_box:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 767px) {
+  .home_service_box, .home_service_box:nth-of-type(2n) {
+    flex-direction: column;
+  }
+}
+
+.home_service_box .service_info {
+  width: 48.2%;
+}
+
+@media (max-width: 767px) {
+  .home_service_box .service_info {
+    width: 100%;
+  }
+}
+
+.home_service_box .service_img {
+  width: 48.2%;
+}
+
+@media (max-width: 767px) {
+  .home_service_box .service_img {
+    margin-bottom: 23px;
+    width: 100%;
+  }
+}
+
+.home_service_box .service_ttl {
+  margin-bottom: 32px;
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+@media (max-width: 767px) {
+  .home_service_box .service_ttl {
+    margin-bottom: 19px;
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+}
+
+.home_service_box .service_txt {
+  margin-bottom: 17px;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 767px) {
+  .home_service_box .service_txt {
+    font-size: 1.4rem;
+  }
+}
